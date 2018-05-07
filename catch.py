@@ -10,7 +10,7 @@ while(cap.isOpened()):
     cv2.imshow('frame',frame)
     cv2.imwrite('xu{}.jpg'.format(cnt),frame)
     cnt += 1
-    if cnt > 5:
+    if cnt >= 1:
       break
   else:
     break

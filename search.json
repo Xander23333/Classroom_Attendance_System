@@ -1,0 +1,16 @@
+{
+  "request_id": "1525723680,1e89eb1e-9e29-4d04-acba-e5479c4d8e79",
+  "time_used": 418,
+  "thresholds": {
+    "1e-3": 62.327,
+    "1e-5": 73.975,
+    "1e-4": 69.101
+  },
+  "results": [
+    {
+      "confidence": 42.056,
+      "user_id": "1011161122",
+      "face_token": "628ded7b1e6d859a1296d616f279388e"
+    }
+  ]
+}
