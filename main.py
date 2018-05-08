@@ -9,14 +9,9 @@ import time
 
 at.entercourse('实验室')
 
-cnt = 0
-while(True):
-    pp.small('test.jpg')
-    at.rollcall('test.jpg')
-    time.sleep(5)
-    cnt+=1
-    if cnt>10:
-      break
+pp.small('test.jpg')
+at.rollcall('test.jpg')
+
 
 
 
