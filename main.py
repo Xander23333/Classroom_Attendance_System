@@ -7,12 +7,9 @@ import threading
 
 import time
 
+# pp.small_datas()
+# keyin.updateID('1004161108')
+
 at.entercourse('实验室')
 
-pp.small('test.jpg')
 at.rollcall('test.jpg')
-
-
-
-
-
