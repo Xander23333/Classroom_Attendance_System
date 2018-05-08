@@ -1,9 +1,23 @@
 import keyin
-import search
 import face_API as face
 import pre_process as pp
+import attendence as at
 
-pp.small_datas()
-print(face.multi_search('/Users/xander/Documents/code/classroom_recognization_system/test_datas/2.jpg'))
+import threading
+
+import time
+
+at.entercourse('实验室')
+
+cnt = 0
+while(True):
+    pp.small('test.jpg')
+    at.rollcall('test.jpg')
+    time.sleep(5)
+    cnt+=1
+    if cnt>10:
+      break
+
+
 
 

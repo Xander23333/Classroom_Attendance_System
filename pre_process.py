@@ -6,6 +6,9 @@ test_path = '/Users/xander/Documents/code/classroom_recognization_system/test_da
 from PIL import Image
 
 def small(img_url):
+  fsize = os.path.getsize(img_url)
+  if (fsize <= 1.8*1024*1024): 
+    return
   with Image.open(img_url) as im:
     width,height = im.size
     m = max(width,height)
