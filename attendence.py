@@ -25,6 +25,7 @@ def entercourse(coursename):# Tested
     idlist.append(i[0])
 
   global infodict
+  infodict = {}
   for ID in idlist:
     getinfo = "select * from students where ID=\"{}\"".format(ID)
     cur.execute(getinfo)

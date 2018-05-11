@@ -2,7 +2,7 @@
 2018 Undergraduate Innovative Training Project
 
 # Team Member
-[Xuxiang](https://github.com/XanderXu1998/), Hua Tianyu, Hu Yue, Bai Yang, Li Caihan
+[Xu Xiang](https://github.com/XanderXu1998/), Hua Tianyu, Hu Yue, Bai Yang, Li Caihan
 
 # ddl
-midium defence
+Midium Defence 5.10

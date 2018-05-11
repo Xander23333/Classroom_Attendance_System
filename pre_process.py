@@ -18,6 +18,7 @@ def small(img_url):
     im.save(img_url)
 
 def small_paths(paths):
+  print('datas standarlization finished of {}'.format(paths))
   for root,dirs,files in os.walk(paths):
     for img in files:
       filename,extention = os.path.splitext(img)
